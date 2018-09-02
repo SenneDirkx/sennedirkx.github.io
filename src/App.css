@@ -3,6 +3,9 @@ html, body {
   padding: 0;
   height: 100%;
 }
+h1 {
+  margin: 0;
+}
 .App {
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -21,7 +24,6 @@ html, body {
   display: table-cell;
   vertical-align: middle;
   height: 400px;
-  line-height: 20px;
 }
 
 .App-header-text h1 {
