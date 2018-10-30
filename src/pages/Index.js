@@ -11,6 +11,7 @@ class Index extends Component {
           <h1 className="title">I&#39;m a Computer Science student.</h1>
           <br />
           <div className="links">
+            <Link to="/about" className="link">About</Link>
             <Link to="/portfolio" className="link">Portfolio</Link>
             <Link to="/services" className="link">Services</Link>
           </div>

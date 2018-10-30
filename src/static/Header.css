@@ -1,0 +1,72 @@
+.Header {
+  background-color: #001f3f;
+  padding-top: 20px;
+  text-align: center;
+}
+
+header {
+  padding-bottom: 55px;
+}
+
+header h1 {
+  margin-top: 55px;
+  color: #01FF70;
+  font-size: 100px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.Header svg {
+  vertical-align: middle;
+  color: #01FF70;
+}
+
+.large-nav {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.small-nav {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.large-nav ul {
+  padding: 0;
+  margin:0;
+}
+
+.small-nav ul {
+  padding: 0;
+  margin:0;
+}
+
+.large-nav li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 30px;
+}
+
+.small-nav li {
+  list-style-type: none;
+  margin: 20px 0;
+}
+
+.large-nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  padding: 5px 15px;
+}
+
+.small-nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  padding: 5px 15px;
+}
+
+.large-nav a:hover {
+  border-bottom: 1px solid #01FF70;
+}

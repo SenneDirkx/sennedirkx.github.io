@@ -2,7 +2,7 @@
   text-align: center;
   font-family: 'Raleway', sans-serif;
   height: 100%;
-  background-color: #001b49;
+  background-color: #001f3f;
   color: white;
   display: table;
   width: 100%;
@@ -21,7 +21,7 @@
 
 .name {
   font-weight: 500;
-  color: yellow;
+  color: #01FF70;
 }
 
 .index .links {
@@ -35,11 +35,11 @@
   margin: 15px;
   font-size: 25px;
   font-weight: 300;
-  border: 1px solid white;
+  border-bottom: 1px solid #01FF70;
   border-radius: 20px;
 }
 
 .index .link:hover {
-  color:#001b49;
-  background-color: white;
+  color:#01FF70;
+  border-bottom: 3px solid #01FF70;
 }

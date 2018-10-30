@@ -2,13 +2,15 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../static/Portfolio.css';
 
+import Header from '../components/Header'
+import Wip from '../components/WIP'
+
 class Portfolio extends Component {
   render() {
     return (
       <div>
-        <h1>Portfolio</h1>
-        <Link to="/">Home</Link>
-        <p>This web application is still in development. Please check back later.</p>
+        <Header title="Check It Out" />
+        <Wip />
       </div>
     )
   }

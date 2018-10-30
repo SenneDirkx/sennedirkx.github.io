@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import '../static/Services.css';
+import '../static/About.css';
 
 import Header from '../components/Header'
 import Wip from '../components/WIP'
 
-class Services extends Component {
+class About extends Component {
   render() {
     return (
       <div>
-        <Header title="What can I do for you?" />
+        <Header title="My Point of View" />
         <Wip />
       </div>
     )
   }
 }
 
-export default Services
+export default About

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './static/App.css';
 
 import Index from './pages/Index'
+import About from './pages/About'
 import Portfolio from './pages/Portfolio'
 import Services from './pages/Services'
 
@@ -12,6 +13,7 @@ class App extends Component {
       <Router>
         <div className="fill">
           <Route exact path="/" component={Index} />
+          <Route path="/about" component={About} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/services" component={Services} />
         </div>
